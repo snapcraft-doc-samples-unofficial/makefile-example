@@ -1,0 +1,9 @@
+Launching instance...                                                                                                                         
+Executed: pull make-example                                                                                                                   
+Executed: overlay make-example                                                                                                                
+Executed: build make-example                                                                                                                  
+Executed: stage make-example                                                                                                                  
+Executed: prime make-example                                                                                                                  
+Executed parts lifecycle                                                                                                                      
+Generated snap metadata                                                                                                                       
+Created snap package make-example_0.1_amd64.snap
