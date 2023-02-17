@@ -15,3 +15,11 @@ jobs:
 
       - uses: snapcore/action-build@v1
         id: build
+
+      - uses: diddlesnaps/snapcraft-review-action@v1
+        with:
+          snap: ${{ steps.build.outputs.snap }}
+          isClassic: 'true'
+          # Plugs and Slots declarations to override default denial (requires store assertion to publish)
+          # plugs: ./plug-declaration.json
+          # slots: ./slot-declaration.json
